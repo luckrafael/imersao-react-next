@@ -1,14 +1,17 @@
 import styled from 'styled-components';
 import db from '../db.json';
-import Widget from '../src/components/Widget'
+import Widget from '../src/components/Widget';
+import QuizBackground from '../src/components/QuizBackground';
+import Footer from '../src/components/Footer';
+import GitHubCorner from '../src/components/GitHubCorner';
 
 
-const BackgroundImage = styled.div `
-    background-image: url(${db.bg});
-    background-size: cover;
-    flex: 1;
-    background-position: center;
-`;
+// const BackgroundImage = styled.div `
+//     background-image: url(${db.bg});
+//     background-size: cover;
+//     flex: 1;
+//     background-position: center;
+// `;
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -23,7 +26,7 @@ export const QuizContainer = styled.div`
 
 export default function Home() {
   return (
-    <BackgroundImage>
+    <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
         <Widget>
           <Widget.Header>
@@ -40,7 +43,10 @@ export default function Home() {
             <p>Lorem ipsum dolor sit amet..</p>
           </Widget.Content>
         </Widget>
+
+        <Footer />
       </QuizContainer>
-    </BackgroundImage>
+      <GitHubCorner projectUrl="https://github.com/luckrafael/imersao-react-next"/>
+    </QuizBackground>
   );
 }
