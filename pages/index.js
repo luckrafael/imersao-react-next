@@ -1,10 +1,12 @@
+import React from 'react';
 import styled from 'styled-components';
+import Head from 'next/head';
+
 import db from '../db.json';
 import Widget from '../src/components/Widget';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
-
 
 // const BackgroundImage = styled.div `
 //     background-image: url(${db.bg});
@@ -28,15 +30,18 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
+        <Head>
+          <title>Harry Potter Quiz</title>
+        </Head>
         <Widget>
           <Widget.Header>
             <h1>Harry Potter Quiz</h1>
           </Widget.Header>
-          <Widget.Content>   
+          <Widget.Content>
             <p>Lorem ipsum dolor sit amet..</p>
           </Widget.Content>
         </Widget>
-          
+
         <Widget>
           <Widget.Content>
             <h1>Quizes da galera</h1>
@@ -46,7 +51,7 @@ export default function Home() {
 
         <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/luckrafael/imersao-react-next"/>
+      <GitHubCorner projectUrl="https://github.com/luckrafael/imersao-react-next" />
     </QuizBackground>
   );
 }
