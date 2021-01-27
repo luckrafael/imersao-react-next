@@ -29,7 +29,8 @@ export const QuizContainer = styled.div`
 
 export default function Home() {
   const router = useRouter();
-  let name = '';
+  const [name, setName] = React.useState('');
+  console.log('retorno o useState', name, setName);
 
   return (
     <QuizBackground backgroundImage={db.bg}>
@@ -45,18 +46,19 @@ export default function Home() {
             <form onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
-              console.log('Fazendo um submit via react');
             }}
             >
               <input
                 onChange={function (infosDoEvento) {
-                  console.log(infosDoEvento.target.value);
-                  name = infosDoEvento.target.value;
+                  // eslint-disable-next-line no-const-assign
+                  // name = infosDoEvento.target.value;'
+                  setName(infosDoEvento.target.value);
                 }}
                 placeholder="Diz ai seu nome"
               />
               <button type="submit" disabled={name.length === 0}>
                 Jogar
+                {' '}
                 {name}
               </button>
             </form>
