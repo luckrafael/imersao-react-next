@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable jsx-a11y/iframe-has-title */
 /* eslint-disable react/prop-types */
 import React from 'react';
 import db from '../db.json';
@@ -57,7 +59,7 @@ function LoadingWidget() {
       </Widget.Header>
 
       <Widget.Content>
-        [Desafio do Loading]
+        <img src="load.gif" width="100%" height="100%" />
       </Widget.Content>
     </Widget>
   );
@@ -181,7 +183,7 @@ export default function QuizPage() {
     // fetch() ...
     setTimeout(() => {
       setScreenState(screenStates.QUIZ);
-    }, 1 * 1000);
+    }, 2.8 * 1000);
   // nasce === didMount
   }, []);
 

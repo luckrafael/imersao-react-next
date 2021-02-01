@@ -34,6 +34,8 @@ background-color: ${({ theme }) => theme.colors.primary};
 `;
 
 Widget.Content = styled.div`
+width: 100%;
+height: 100%;
 padding: 24px 32px 32px 32px;
 & > *:first-child {
   margin-top: 0;
