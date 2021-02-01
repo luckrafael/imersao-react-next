@@ -58,9 +58,16 @@ function LoadingWidget() {
         Carregando...
       </Widget.Header>
 
-      <Widget.Content>
-        <img src="load.gif" width="100%" height="100%" />
-      </Widget.Content>
+      <img
+        src="load.gif"
+        alt="loading"
+        style={{
+          width: '100%',
+          height: '100%',
+          objectFit: 'cover',
+        }}
+      />
+
     </Widget>
   );
 }
