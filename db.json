@@ -4,9 +4,9 @@
     "description": "O quanto voce conhece sobre Harry Potter?",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "image": "snape.gif",
         "title": "Quantos filmes tem a saga?",
-        "description": "Essa é fácil!",
+        "description": "",
         "answer": 2,
         "alternatives": [
           "5",
@@ -16,9 +16,9 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "image": "draco.gif",
         "title": "Quem matou os pais do Harry Potter?",
-        "description": "Faz tempo em haha",
+        "description": "",
         "answer": 1,
         "alternatives": [
           "Tom Riddle",
@@ -28,9 +28,9 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "image": "dumbledore.gif",
         "title": "Quem é o padrinho de Harry Potter?",
-        "description": "Faz tempo em haha",
+        "description": "",
         "answer": 3,
         "alternatives": [
           "Snape",
@@ -40,15 +40,26 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "image": "rony.gif",
         "title": "Qual dos feitiços abaixo é considerado uma Maldição Imperdoável?",
-        "description": "Faz tempo em haha",
+        "description": "",
         "answer": 2,
         "alternatives": [
           "Sectusempra",
           "Mormodre",
           "Crucio",
           "Alarte Ascendare"
+        ]
+      },
+      {
+        "image": "minerva.gif",
+        "title": "Quais animais os novos estudantes podem escolher para levar à Hogwarts?",
+        "description": "",
+        "answer": 0,
+        "alternatives": [
+          "Coruja, gato ou sapo",
+          "Coruja, gato ou cachorro",
+          "Gato, coruja ou rato"
         ]
       }
     ],
