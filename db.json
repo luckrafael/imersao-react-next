@@ -52,14 +52,15 @@
         ]
       },
       {
-        "image": "minerva.gif",
-        "title": "Quais animais os novos estudantes podem escolher para levar à Hogwarts?",
+        "image": "trio.gif",
+        "title": "Qual Relíquia da Morte foi entregue a Harry no seu primeiro ano em Hogwarts?",
         "description": "",
-        "answer": 0,
+        "answer": 1,
         "alternatives": [
-          "Coruja, gato ou sapo",
-          "Coruja, gato ou cachorro",
-          "Gato, coruja ou rato"
+          "Pomo de Ouro",
+          "Capa da Invisibilidade",
+          "Pedra da Ressureição",
+          "Varinha das varinhas"
         ]
       }
     ],
