@@ -15,6 +15,8 @@ function ResultWidget({ results }) {
   return (
     <Widget>
       <Widget.Header>
+        <BackLinkArrow href="/" />
+
         Tela de Resultado:
       </Widget.Header>
 
@@ -190,7 +192,7 @@ export default function QuizPage() {
     // fetch() ...
     setTimeout(() => {
       setScreenState(screenStates.QUIZ);
-    }, 2.8 * 1000);
+    }, 2.6 * 1000);
   // nasce === didMount
   }, []);
 

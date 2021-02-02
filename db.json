@@ -5,27 +5,54 @@
     "questions": [
       {
         "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
+        "title": "Quantos filmes tem a saga?",
+        "description": "Essa é fácil!",
         "answer": 2,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "5",
+          "7",
+          "8",
+          "6"
         ]
       },
       {
         "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
+        "title": "Quem matou os pais do Harry Potter?",
         "description": "Faz tempo em haha",
-        "answer": 0,
+        "answer": 1,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+          "Tom Riddle",
+          "Voldemort",
+          "Snape",
+          "Draco Malfoy"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "title": "Quem é o padrinho de Harry Potter?",
+        "description": "Faz tempo em haha",
+        "answer": 3,
+        "alternatives": [
+          "Snape",
+          "Dumbledore",
+          "Remus Lupin",
+          "Sirius Black"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "title": "Qual dos feitiços abaixo é considerado uma Maldição Imperdoável?",
+        "description": "Faz tempo em haha",
+        "answer": 2,
+        "alternatives": [
+          "Sectusempra",
+          "Mormodre",
+          "Crucio",
+          "Alarte Ascendare"
         ]
       }
     ],
+    
     "external": [
       "https://aluraquiz-base.alura-challenges.vercel.app/",
       "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
