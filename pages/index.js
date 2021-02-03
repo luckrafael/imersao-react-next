@@ -136,7 +136,7 @@ export default function Home() {
           animate="show"
         />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/omariosouto" />
+      <GitHubCorner projectUrl="https://github.com/luckrafael/imersao-react-next" />
     </QuizBackground>
   );
 }
